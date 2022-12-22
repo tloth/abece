@@ -46,7 +46,7 @@ export const alphabet = [
 ];
 
 const map = new Map();
-alphabet.map((l) => {
+alphabet.forEach((l) => {
   let m = l.charAt(0).toUpperCase() + l.slice(1);
 
   switch (l) {
